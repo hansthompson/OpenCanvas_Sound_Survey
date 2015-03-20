@@ -1,0 +1,16 @@
+{
+    "contents" : "\n# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\nlibrary(httr)\nlibrary(shiny)\nlibrary(lubridate)\nlibrary(ggplot2)\nlibrary(dplyr)\n#input <- list(city = \"Shanghai\")\n\n\nids <- read.csv(\"sensor_ids.csv\")\n\nshinyServer(function(input, output) {\n\n  output$station_names <- renderUI({\n    selectInput('sensor_name', 'Sensor Name', as.character(filter(ids, city == input$city)$sensor_names))\n  })\n\ncreateplot <- reactive({\n  api_id <- filter(ids, sensor_names == input$sensor_name)$sensor_ids\njson <- GET(paste0(\"http://sensor-api.localdata.com/api/v1/sources/\", api_id, \"/entries.csv?count=1000&sort=desc\"))\ndf <- content(json) %>%\n  select(timestamp, sound)\n\ndf$timestamp <- ymd_hms(df$timestamp)\ndf$minutes <- df$timestamp - seconds(second(df$timestamp))\ndf$hours <- df$timestamp - seconds(second(df$timestamp)) - minutes(minute(df$timestamp))\n\nsound_minute <- df %>%\n  mutate(decibels = (sound * 0.0158) + 49.184) %>%\n  group_by(minutes) %>%\n  summarise(decibels = max(decibels)) \n\nplot_title <- paste(\"Max dB Each Minute From\", min(sound_minute$minute), \"to\", max(sound_minute$minute))\n\nggplot(data = sound_minute, aes(x = decibels)) + geom_histogram(binwidth = input$binwidth) + \n  geom_vline(xintercept = 90, color = \"red\", linetype = \"longdash\") + annotate(\"text\", x = 90, y =  10, label = \"Using an angle grinder\", color = \"red\") +\n  geom_vline(xintercept = 75, color = \"#FF8600\", linetype = \"longdash\") + annotate(\"text\", x = 75, y =  10, label = \"Curbside on a busy road\", color = \"#FF8600\") +\n  geom_vline(xintercept = 60, color = \"#009900\", linetype = \"longdash\") + annotate(\"text\", x = 60, y =  10, label = \"Conversation at 1 meter\", color = \"#009900\") + \n  xlab(\"Decibels\") + ylab(\"Minutes of exposure\") + ggtitle(plot_title)\n})\n\noutput$distPlot <- renderPlot({\n    print(createplot())\n  })\n\n})\n\n\n",
+    "created" : 1426647084072.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2143384963",
+    "id" : "E0EB075F",
+    "lastKnownWriteTime" : 1426819814,
+    "path" : "C:/Users/Hans T/Desktop/pollution_app/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

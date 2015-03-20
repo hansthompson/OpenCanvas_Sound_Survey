@@ -1,0 +1,88 @@
+,sensor_names,sensor_ids,city
+2,Urban Launchpad,ci4yfbbdb000d03zzoq8kjdl0,San Francisco
+3,GlenParklifeLogger,ci4yhy9yy000f03zznho5nm7c,San Francisco
+4,ClimateNinja9000,ci4yyrdqi000j03zz8ylornqd,San Francisco
+5,Exploratorium,ci4vy1tfy000m02s7v29jkkx4,San Francisco
+6,Datavore,ci4lnqzte000002xpokc9d25v,San Francisco
+7,Grand Theater,ci4usvy81000302s7whpk8qlp,San Francisco
+8,mapsense,ci4usvryz000202s7llxjafaf,San Francisco
+9,GehlData,ci4xcxxgc000n02tci92gpvi6,San Francisco
+10,a-streetcar-named-data-sensor,ci4usss1t000102s7hkg0rpqg,San Francisco
+11,AlleyCat,ci4tmxpz8000002w7au38un50,San Francisco
+12,DataDonut,ci4yf50s5000c03zzt4h2tnsq,San Francisco
+13,grapealope,ci4ut5zu5000402s7g6nihdn0,San Francisco
+15,MODseeed,ci53tm6va0001032pzez19tgz,Bangalore
+16,openbangalore,ci4v3czb7000502s7lnln7ztr,Bangalore
+17,WRI,ci4yfgz37000e03zzg1a6o6vy,Bangalore
+18,Nextdrop,ci59onqz2000103z5f90u4k78,Bangalore
+19,DataBrigade,ci4yae86r000903zzsna9zh30,Bangalore
+20,Laddoo,ci4xvuiqf000503zz1bah2he8,Bangalore
+21,Palantir,ci4xs6uhw000403zz9za2guib,Bangalore
+22,Claptrap,ci541fl410002032pbifg5o7a,Bangalore
+23,sycsmlp1,ci4zftqww0002032zeskt2yuc,Bangalore
+24,Geekstorm,ci4x8lumr000l02tco6291y1u,Bangalore
+26,soldering defect,ci4x0rtb9000h02tcfa5qov33,Boston
+27,Pineapple,ci4ooqbyw0001021o7p4qiedw,Boston
+28,Sproutuino,ci4xird28000003zzz1soh9fj,Boston
+29,monalisa,ci4ue1845000102w7ni64j7pl,Boston
+30,SeeedSensor,ci4w1npi3000p02s7a43zws7q,Boston
+31,badgersense,ci4vzm23c000o02s76ezwdgxe,Boston
+32,Sparkling,ci4x1uh3q000j02tcnehaazvw,Boston
+33,Euclid,ci5a6lluy000303z5d02xla24,Boston
+34,firehazard,ci530o426000003v9a6uxvc2l,Boston
+35,Home1,ci4rb6392000102wddchkqctq,Boston
+36,theperch,ci4qaiat7000002wdidwagmmb,Boston
+37,Richard,ci4vv79v9000k02s7n4avp69i,Boston
+38,Gabe Sensor,ci4w3emre000002tcnpko08o3,Boston
+40,Geneva16,ci4lr75ve000c02ypnfy0qt8n,Geneva
+41,Geneva6,ci4lr75ok000302yp9dowz3rm,Geneva
+42,Geneva7,ci4lr75sm000902ypns4q30xy,Geneva
+43,Laconn'air,ci4lr75sf000602ypyfkxnua3,Geneva
+44,OpiOneKenopi,ci4lr75sl000802ypo4qrcjda,Geneva
+45,Orion,ci4lr75ob000102yphtjj75f5,Geneva
+46,metabolo,ci4lr75o6000002yp6eolj0rm,Geneva
+47,makegeneve,ci4lr75oi000202ypmtgrudhs,Geneva
+48,Geneva11,ci4lr75vd000b02ypdlm6qbly,Geneva
+49,LEClife,ci4lr75v6000a02ypa256zigk,Geneva
+50,Geneva14,ci4lr75se000502ypjgleg6kj,Geneva
+51,Geneva15,ci4lr75wi000e02yp5ek72zcr,Geneva
+53,Crisp Cookie,ci4vxorfp000l02s7nv4mlefu,Rio de Janeiro
+54,Rio40,ci4vjer3i000e02s7r2cj23gs,Rio de Janeiro
+55,PadulaNiteroiRJ,ci4vye225000n02s7rxjdfxa1,Rio de Janeiro
+56,coppentt,ci5a2vxxf000203z5tenrtp4g,Rio de Janeiro
+57,BarraDaTijucaCanvas,ci4q0adco000002t9qu491siy,Rio de Janeiro
+58,Kennyduino,ci4xkmrkk000103zzm94zdsu4,Rio de Janeiro
+59,swissnexbrazil,ci4oethyi000302ymejc2wc2j,Rio de Janeiro
+60,OurHomeMakerSpace DataCanvas@Rio,ci4sn1zfb000102wetn54eux9,Rio de Janeiro
+61,BarmaCanvas,ci4symwpg000402wejp5hagiv,Rio de Janeiro
+62,GaveaDataCanvas,ci4wsj9if000c02tcrquen3bl,Rio de Janeiro
+63,valeriab,ci4yf41wg000b03zz1sg9c2yb,Rio de Janeiro
+64,Cavalo,ci50huz75000003whywxrn4wx,Rio de Janeiro
+65,Olabi,ci4x6nzle000k02tckylmop2g,Rio de Janeiro
+66,nico,ci4q2f9cr000102t9di6kx27u,Rio de Janeiro
+68,james,ci5c3vgzv000003v4deetujpe,Shanghai
+69,penguin,ci4vk908n000h02s7pqy6aud3,Shanghai
+70,WGQ,ci4w9izto000302tcgj9hmy9m,Shanghai
+71,frogsh,ci4wmzegn000702tcc6dn993o,Shanghai
+72,fraserxu,ci4s0caqw000002wey2s695ph,Shanghai
+73,SASPudong,ci4xdbcwd000o02tcoi729rb7,Shanghai
+74,transistor,ci4xrkkxy000203zz2qz5x2qt,Shanghai
+75,JiadingSensor,ci4z8a9d10001032zk4mh5qow,Shanghai
+76,xinchejian,ci521nmr600020347n4s107yh,Shanghai
+77,Simon's All Knowing Box,ci525hppb00030347n3qo265c,Shanghai
+78,TheMarms,ci527ripa000403471yii8wim,Shanghai
+79,chinotto,ci4yd6rfl000a03zzycxw5inl,Shanghai
+81,SECSensor,ci4v5vrcu000602s7g2cur4b2,Singapore
+82,HackerspaceSGSeeed,ci4y9ght2000803zzrj61j1nl,Singapore
+83,Durianz,ci599v4yf000003z5b4ovspob,Singapore
+84,sg_hougang_61,ci4v67rh8000902s7vcxxq6wt,Singapore
+85,The ThunderBolt,ci4y4ohu3000703zzy0fxkd5n,Singapore
+86,NorthStarOne,ci4vejnju000b02s70yzzonp9,Singapore
+87,Aislinnn,ci5lssf4x000003x8j2karv47,Singapore
+88,ghimmohyandao,ci4wyckhv000f02tcyojovuvr,Singapore
+89,mm@alexandra,ci4wq5cf6000a02tci6u38edj,Singapore
+90,Gecko,ci52039km00010347y1k3z1u4,Singapore
+91,swissnexSG,ci4wg4xti000502tccs34dvk4,Singapore
+92,HPSG730864,ci4w8gd6f000102tcnp415mz5,Singapore
+93,reversehaven,ci516u6u8000203wht0ml6o9c,Singapore
+94,rpbaltazar@bukit-timah,ci4v5wwl4000702s7t1u7rz4a,Singapore
